@@ -9,11 +9,11 @@ $color-turquoise-palette:#65C1C7;
 }
 
 .navbar-custom{
-  background-color: $color-turquoise-palette;
+  background-color: rgb(53, 208, 255);
 }
 /* change the background color of menu */
 .navbar-custom .navbar-nav {
-  background-color: rgba(225, 239, 255, 0.58);
+  background-color: rgba(221, 223, 213, 0.58);
   border-radius: 7px;
 }
 
@@ -37,7 +37,6 @@ $color-turquoise-palette:#65C1C7;
   margin-bottom: 20px;
 }
 
-
 h1,h3{
   background-color: $color-red-pink-palette;
   color: white !important;
@@ -51,8 +50,37 @@ h1,h3{
   border-top: 8px solid rgba(244,244,244,0.5);
 }
 
-#titre-marque{
+.btn-see-more:hover, .btn-subscribe:hover {
+  font-weight: bold;
+}
+
+.btn-see-more {
+  background-color: #65C1C7;
+}
+
+.btn-subscribe {
+  background-color: #65C1C7;
+}
+
+.bg-cyan-transparent {
+  background-color: #cae9ef8a;
+}
+
+#block-presentation-texte {
+  border-left: 15px solid rgba(244, 244, 244, 0.5);
+  border-top: 12px solid rgba(244, 244, 244, 0.5);
+  border-radius: 19px;
+}
+
+#titre-marque {
   vertical-align: text-top;
 }
 
-
+footer{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 54px;
+  background-color: rgba(54, 208, 255, 0.42) !important;
+}

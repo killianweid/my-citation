@@ -74,8 +74,23 @@
         </div>
     </section>
 
+    <!-- Footer -->
+    <footer class="mt-2">
 
+        <div class="row mr-0">
+            <div class="py-3 col-md-4">
+                P5 parcours "Développeur d'application Frontend" de
+                <a href="https://openclassrooms.com/fr/paths/60-developpeur-dapplication-frontend"> OpenClassrooms</a>
+            </div>
+            <!-- Copyright -->
+            <div class="footer-copyright py-3 col-md-4 ml-auto text-right">
+                © <a href="https://killianweidner.wordpress.com/">Killian Weidner</a> 2020. Tous droits réservés.
+            </div>
+            <!-- Copyright -->
+        </div>
 
+    </footer>
+    <!-- Footer -->
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
@@ -83,36 +98,6 @@
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
     <script src="bootstrap-4.3.1/js/bootstrap.min.js"></script>
     <script src="bootstrap-4.3.1/js/jquery.js"></script>
-    <script>
-        function entierAleatoire(min, max){
-            return Math.floor(Math.random() * (max - min + 1)) + min;
-        }
-        let listeBoutDePhrases = [
-            "Chaque jour",
-            "Le sport",
-            "Le secret",
-            "Gagner",
-            "Le champion",
-            "reflète",
-            "améliore",
-            "rapproche",
-            "accélère",
-            "intensifie",
-            "nôtre âme",
-            "les liens entre individus",
-            "l'amour de la vie",
-            "la vision des autres",
-            "la véritable personnalité qui est en nous"
-        ];
-
-        function genererCitation(){
-            let boutDePhrase1 = listeBoutDePhrases[entierAleatoire(0,4)];
-            let boutDePhrase2 = listeBoutDePhrases[entierAleatoire(5,9)];
-            let boutDePhrase3 = listeBoutDePhrases[entierAleatoire(10,14)];
-            let citation = `${boutDePhrase1} ${boutDePhrase2} ${boutDePhrase3}.` ;
-            document.getElementById("citation").innerHTML = '"' + citation + '"';
-        }
-
-    </script>
+    <script src="src/js/etape1.js"></script>
   </body>
 </html>
