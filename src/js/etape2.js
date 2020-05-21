@@ -240,6 +240,9 @@ function afficherCitations() {
             }
 
         }
+        if(screen.width < 800) {
+            $("#footer").css("display","none");
+        }
         // on efface le contenu de l'endroit où seront affichés les citations
         document.getElementById("citation").innerHTML = "";
         // chaque citation du tableau est ajouté au code HTML de la balise d'id "citation"
