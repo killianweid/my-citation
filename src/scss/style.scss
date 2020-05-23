@@ -97,3 +97,24 @@ footer [class*="col"] {
 html {
   min-height:100%;
 }
+
+.footer-copyright {
+  text-align: right;
+}
+
+footer div div {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+@media screen and (max-width: 765px){
+  .footer-copyright {
+    text-align: center;
+    padding-top: 0 !important;
+  }
+
+  footer{
+    text-align: center;
+  }
+
+}
